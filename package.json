@@ -23,11 +23,6 @@
     "react-native-tuya-minisdk.podspec"
   ],
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build"
   },
   "repository": {
     "type": "git",
