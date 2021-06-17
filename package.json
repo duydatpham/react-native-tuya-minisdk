@@ -3,7 +3,14 @@
   "title": "React Native Tuya Minisdk",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "react-native",
+    "tuyasmart",
+    "iot",
+    "tuya"
+  ],
   "files": [
     "README.md",
     "android",
@@ -12,16 +19,17 @@
     "react-native-tuya-minisdk.podspec"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/github_account/react-native-tuya-minisdk.git",
     "baseUrl": "https://github.com/github_account/react-native-tuya-minisdk"
   },
-  "keywords": [
-    "react-native"
-  ],
   "author": {
     "name": "duydatpham",
     "email": "duydatpham@gmail.com"
@@ -35,6 +43,13 @@
   },
   "devDependencies": {
     "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "@types/jest": "^25.1.2",
+    "@types/react-native": "^0.61.16",
+    "@volst/eslint-config": "^4.1.1",
+    "husky": "^4.2.3",
+    "react-native": "^0.61.5",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
   }
 }
