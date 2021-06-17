@@ -3,8 +3,8 @@
   "title": "React Native Tuya Minisdk",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
   "keywords": [
     "react-native",
     "tuyasmart",
@@ -19,11 +19,6 @@
     "react-native-tuya-minisdk.podspec"
   ],
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build"
   },
   "repository": {
     "type": "git",
