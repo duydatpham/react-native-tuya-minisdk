@@ -1,4 +1,8 @@
 {
+  "peerDependencies": {
+    "react-native": ">=0.61.5"
+  },
+  "homepage": "https://github.com/github_account/react-native-tuya-minisdk#readme",
   "name": "react-native-tuya-minisdk",
   "title": "React Native Tuya Minisdk",
   "version": "1.0.0",
@@ -34,13 +38,13 @@
     "name": "duydatpham",
     "email": "duydatpham@gmail.com"
   },
-  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": ">=16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
-  },
+  "module": "dist/react-native-tuya.esm.js",
   "devDependencies": {
     "react": "^16.9.0",
     "@types/jest": "^25.1.2",
