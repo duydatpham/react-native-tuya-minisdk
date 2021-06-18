@@ -5,7 +5,7 @@
   "homepage": "https://github.com/github_account/react-native-tuya-minisdk#readme",
   "name": "react-native-tuya-minisdk",
   "title": "React Native Tuya Minisdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TODO",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -23,11 +23,6 @@
     "react-native-tuya-minisdk.podspec"
   ],
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build"
   },
   "repository": {
     "type": "git",
