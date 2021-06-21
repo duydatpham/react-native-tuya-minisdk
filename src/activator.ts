@@ -7,7 +7,7 @@ export function openNetworkSettings() {
 }
 
 export type InitActivatorParams = {
-  homeId: number;
+  token: string;
   ssid: string;
   password: string;
   time: number;

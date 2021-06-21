@@ -70,7 +70,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.tuya.smart:deviceActivator:3.15.3'
+    implementation 'com.tuya.smart:tuyasmart:3.20.0'
     implementation 'com.alibaba:fastjson:1.1.67.android'
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
